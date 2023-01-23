@@ -12,6 +12,7 @@ function switchTheme(e) {
     sunIcon.style.visibility = "visible";
   } else {
     document.documentElement.setAttribute("data-theme", "light");
+    themeTitle.innerText = "Light mode";
     sunIcon.style.visibility = "hidden";
     moonIcon.style.visibility = "visible";
   }
